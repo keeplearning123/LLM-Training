@@ -1,0 +1,24 @@
+version: 1.0.0
+schema: v1
+models:
+  - name: Llama 3.2 1B
+    provider: ollama
+    model: llama3.2:1b
+    roles:
+      - chat
+      - edit
+      - apply
+
+  - name: Qwen2.5-Coder 7B
+    provider: ollama
+    model: qwen2.5-coder:7b
+    roles:
+      - chat
+      - autocomplete
+
+  - name: DeepSeek R1 8B
+    provider: ollama
+    model: deepseek-r1:8b
+    roles:
+      - chat
+      - embed
